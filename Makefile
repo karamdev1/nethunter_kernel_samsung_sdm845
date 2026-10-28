@@ -348,7 +348,7 @@ include scripts/Kbuild.include
 LDGOLD		= $(CROSS_COMPILE)ld.gold
 CPP		= $(CC) -E
 ifneq ($(LLVM),)
-CC		= clang
+#CC		= clang
 LD		= ld.lld
 AR		= llvm-ar
 NM		= llvm-nm
