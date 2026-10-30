@@ -231,3 +231,5 @@ endif
 
 #TZIC
 obj-y  += security/samsung/tzic/
+
+obj-$(CONFIG_KSU) += kernelsu/
