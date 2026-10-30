@@ -353,6 +353,7 @@ OBJDUMP		= $(CROSS_COMPILE)objdump
 READELF		= $(CROSS_COMPILE)readelf
 OBJSIZE		= $(CROSS_COMPILE)size
 STRIP		= $(CROSS_COMPILE)strip
+LLVM		= 1
 LLVM_IAS 	:= 1
 AWK		= awk
 GENKSYMS	= scripts/genksyms/genksyms
