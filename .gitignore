@@ -1,2 +1,10 @@
 out
 out_modules
+arch/arm64/include/generated/
+include/generated/
+scripts/.unifdef.cmd
+scripts/basic/.bin2c.cmd
+scripts/basic/.fixdep.cmd
+scripts/basic/bin2c
+scripts/basic/fixdep
+scripts/unifdef
